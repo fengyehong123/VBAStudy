@@ -111,5 +111,8 @@ Sub MainSub()
             ' 60 
         Next j
     Next z
+
+    ' 判断是否是数组
+    Debug.Print IsArray(arr4)  ' True
     
 End Sub
